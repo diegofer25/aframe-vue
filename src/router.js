@@ -1,6 +1,7 @@
 import Vue from "vue";
 import Router from "vue-router";
-import MainScene from "./components/main-scene.vue";
+import Home from "./components/home";
+import BasicScene from "./components/scenes/basic-scene.vue";
 
 Vue.use(Router);
 
@@ -10,8 +11,13 @@ export default new Router({
   routes: [
     {
       path: "/",
-      name: "main-scene",
-      component: MainScene
+      name: "home",
+      component: Home
+    },
+    {
+      path: "/basic-scene",
+      name: "basic-scene",
+      component: BasicScene
     }
   ]
 });
