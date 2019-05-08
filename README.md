@@ -1,4 +1,4 @@
-# a-frame-vue
+# Aframe-vue
 
 ## Project setup
 ```
